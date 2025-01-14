@@ -1,0 +1,350 @@
+@media (max-width: 1900px){
+  aside{
+    max-width: 17.5em;
+  }
+}
+
+body{
+    margin: 0;
+    background-color: #3182ce;
+}
+
+header{
+    height: 2.3vw;
+    /* border: 1px solid #000; */
+    margin: 2.3vw 1vw 2vw;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    display: flex;
+    justify-content: space-between;
+
+ p{
+     font-size: 0.8vw;
+     margin: 0;
+     
+ }   
+ 
+ h6{
+     font-size: 0.9vw;
+     margin: 0;
+     margin-top: 0.2vw;
+ }
+
+
+  .right-side{
+     display: flex;
+ }
+
+  .search{
+     background: #fff;
+     width: 15vw;
+     height: 3vw;
+     border-radius: 7px;
+  }
+
+  .icon{
+     /* align-content: center; */
+     background: url(./assets/Vector.png) no-repeat scroll 0,5vw 0,5vw;
+     padding-left: 1.5vw;
+     padding: 1vw;
+     border: none;
+   }
+
+   .login{
+     margin-left: 1.3vw;
+     margin: 0.85vw;
+     margin-right: 1.45vw;
+   }
+   
+   .settings{
+     margin-top: 1vw;
+     margin-bottom: 1vw;
+     margin-right: 1.2vw;
+   }
+
+   .notifications{
+     margin-top: 1vw;
+     margin-bottom: 1vw;
+   }
+}
+
+main{
+
+  display: grid;
+  grid-template-columns: 265px 1584px;
+  grid-template-rows: 1fr;
+  gap: 0px 19px;
+  grid-template-areas:
+    "aside container";
+  font-family: Arial, Helvetica, sans-serif;  
+
+ aside{ grid-area: aside; }
+ .container{ grid-area: container; }
+
+ aside{
+ background-color: #fff;
+ width: 19.4vw;
+ /* height: 53vw; */
+ border-radius: 1vw;
+ 
+
+  .sidebar{
+    margin-top: 0.8vw;
+    margin-left: 1.7vw;
+    margin-right: 1.7vw;
+    margin-bottom: 5vw;
+  }
+ 
+  .uprav{
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+  }
+
+  .uprav, .table, .casheshe, .RTL, p, .profil, .enter, .loggin{
+    width: 16vw;
+    height: 4vw;
+    margin: 2vw 0;
+
+  }
+ 
+  .uprav, p span{
+    color: #2D3748;
+  }
+
+  img{
+    margin: 0.87vw 1.17vw 0 0;
+  }
+
+  .table, .casheshe, .RTL, .profil, .enter, .loggin span{
+    color: #A0AEC0;
+  }
+
+  .help img{
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
+  
+  .help p{
+    margin: 0;
+    margin-top: 1.3vw;
+    margin-right: 1vw;
+    margin-left: 4vw;
+    font-weight: 600;
+    margin-bottom: 2.8vw;
+  }
+
+  .document{
+    display: flex;
+    background-color: #3182CE;
+    color: #fff;
+    border-radius: 5px;
+    width: 13.5vw;
+    height: 2.6vw;
+    margin-bottom: 1.2vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    font-weight: bold;
+    font-size: 0.9vw;
+    display: grid;
+    place-items: center;
+  }
+
+ }
+
+ .container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "card card card card card salary salary salary cash cash cash cashesh cashesh cashesh cashesh cashesh cashesh cashesh"
+    "plati_nalog plati_nalog plati_nalog plati_nalog plati_nalog plati_nalog plati_nalog plati_nalog plati_nalog plati_nalog plati_nalog cashesh cashesh cashesh cashesh cashesh cashesh cashesh"
+    "info info info info info info info info info info tranzaktions tranzaktions tranzaktions tranzaktions tranzaktions tranzaktions tranzaktions tranzaktions"
+    "info info info info info info info info info info tranzaktions tranzaktions tranzaktions tranzaktions tranzaktions tranzaktions tranzaktions tranzaktions";
+ }
+
+ .card {grid-area: card;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./assets/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: auto;
+    color: #fff;
+    font-weight: bold;
+ 
+    p.number{
+      margin: 10;
+      font-size: 24;
+      margin-top: 122.5px;      
+      margin-left: 31px;
+      width: 244.5px;
+    }
+
+    p.reality{
+      margin: 0;
+      font-size: 14;
+      margin-left: 31px;
+      margin-top: 28px;
+    }
+
+    p.CVV{
+      font-size: 24;
+    }
+  }
+#border{
+  background-color: #FFF;
+  border-radius: 1em;
+}
+ .salary { grid-area: salary;
+
+.salary_img{
+  margin-top: 2em;
+  text-align: center;
+  }
+}
+
+ .cash { grid-area: cash;
+ 
+  .cash_img{
+    margin-top: 2em;
+    text-align: center;
+  }
+}
+
+ .cashesh { grid-area: cashesh; 
+  table {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 95%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #2D3748;
+}
+td p{
+  font-size: 13px;
+  color: #A0AEC0;
+}
+.right-align {
+    text-align: right;
+    color: #A0AEC0;
+    font-size: 16px;
+}
+.btn-new {
+  border-radius: 8px;
+  padding: 15px;
+  color: #0B63F6;
+  transition: .2s linear;
+  background: white;
+  border-color: #0B63F6;
+}
+
+.btn-new:hover {
+ box-shadow: #f1f5ff 0 0px 0px 40px inset;
+}
+}
+
+ .plati_nalog { grid-area: plati_nalog;
+  
+.flex_nalog{
+    display: flex;
+    align-items: right;
+  }
+  .btn_nalog{
+    border-radius: 8px;
+    padding: 15px;
+    color: white;
+    transition: .2s linear;
+    background: #2D3748;
+    border-color: 0;
+}
+
+.btn_nalog:hover {
+  box-shadow: #000000 0 0px 0px 40px inset;
+  }
+  .sposob-oplats{
+    display: flex;
+    justify-content: space-around;
+  }
+  #spb{
+    width: 450px; 
+    background-color: #E2E8F0;
+    border-radius: 8px;
+    border-color: 2px #000000;
+    margin-top: 4em;
+
+  }
+  #spb p{
+    margin-left: 1em;
+  }
+}
+
+ .info { grid-area: info;
+  .people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #person{
+    width: 50em;
+    height: 8em; 
+    background-color: #E2E8F0;
+    border-radius: 8px;
+    border-color: 2px #000000;
+    margin-top: 2em;
+  }
+  #person p{
+    margin-left: 1em;
+  }
+}
+
+ .tranzaktions { grid-area: tranzaktions;
+  table {
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 95%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #2D3748;
+}
+#image{
+  width: 10px; 
+  height: 10px; 
+  white-space: nowrap; /* Не переносит текст на новую строку */
+}
+td p{
+  font-size: 13px;
+  color: #A0AEC0;
+}
+.right-align {
+    text-align: right; 
+    color: #A0AEC0;
+    font-size: 16px;
+}  
+}
+
+
+
+
+ .upper-side{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 23px;
+  grid-row-gap: 23px;
+ } 
+
+}
+
